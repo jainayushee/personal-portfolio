@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #64ffda;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden !important;
+  background-color: #0a192f;
+}
+
+.home {
+  width: 95%;
+  height: fit-content;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.home-text {
+  flex: 5;
+  height: 99%;
+  min-width: 35rem;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-image {
+  flex: 5;
+  height: 99%;
+  min-width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-text p {
+  font-size: 2rem;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.project-title h1{
+  font-size: 3rem;
+}
+
+.project-wrapper {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.project {
+  min-width: 27rem;
+  background-color: #233554;
+  max-width: 20rem;
+  height: 30rem;
+  margin: 2rem 2rem;
+  /* border-radius: 1rem; */
+  cursor: pointer;
+}
+
+.image {
+  width: 100%;
+  height: 40%;
+  background-image: url("./images/project-1.jpg");
+  background-size: cover;
+  /* border-radius: 1rem 1rem 0 0; */
+}
+
+.content {
+  width: 100%;
+  height: 60%;
+  color: azure;
+  /* background-color: azure; */
+}
+
+.title {
+  text-align: center;
+  height: 10%;
+}
+
+.description {
+  text-align: center;
+  padding: 1%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.button-group {
+  text-align: center;
+  padding: 1%;
+  height: 30%;
+}
+
+.btn-func {
+  padding: 1rem;
+  border-radius: 10%;
+  border: none;
+  background-color: paleturquoise;
+  width: 8rem;
+  font-family:"Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.btn-func a{
+  text-decoration: none;
+  color: black;
+}

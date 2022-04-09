@@ -4,7 +4,7 @@
   height: 8rem;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content:space-between;
 }
 
 h2{
@@ -12,28 +12,29 @@ h2{
   letter-spacing: 3px;
 }
 
-.navbar ul {
-  display: none;
+.navbar .nav-items ul {
+  display: flex;
+  flex-direction: row;
   list-style: none;
   width: 100%;
   justify-content: center;
 }
 
-.navbar ul li {
+.navbar .nav-items ul li {
   margin: 0 1rem;
   padding: 1rem;
 }
 
-.navbar ul li a {
+.navbar .nav-items ul li a {
   text-decoration: none;
-  color: #000;
+  color: #ccd6f6;
   text-transform: uppercase;
   font-weight: 300;
   font-size: 1.5rem;
 }
 
-.navbar ul li a:hover {
-  color: grey;
+.navbar .nav-items ul li a:hover {
+  color: #64ffda;
 }
 
 .logo {
@@ -42,9 +43,9 @@ h2{
   height: 50px;
 }
 
-.burger {
+/* .burger {
   display: none;
-}
+} */
 
 /* @media (max-width: 680px) {
   .burger {

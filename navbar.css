@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content:space-between;
+  top: 0;
 }
 
 h2{
@@ -35,6 +36,7 @@ h2{
 
 .navbar .nav-items ul li a:hover {
   color: #64ffda;
+  cursor: pointer;
 }
 
 .logo {

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" type="image/png" href="./images/AJ.png" />
+    <link rel="icon" type="image/png" href="./images/logo2.png" />
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="navbar.css">
@@ -15,7 +15,7 @@
 
 <body>
 
-    <div class="container">
+    <div class="container" id="home">
 
         <div class="navbar">
             <div class="nav-logo">
@@ -28,8 +28,9 @@
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#services">Resume</a></li>
+                    <li><a href="#footer">Contact</a></li> 
+                    <li><a href="#" onclick="window.open('Report.pdf', '_blank')">Resume</a>
+                    </li>
                 </ul>
             </div>
             <!-- <a class="burger">
@@ -41,7 +42,7 @@
             <div class="wrapper">
                 <div class="home-text">
                     <h1>Hi there! I’m <span class="highlight">Ayushee Jain</span></h1>
-                    <p>A developer and programmer from India.</p>
+                    <p>A developer and programmer from India, on a journey to become a full stack developer.</p>
                 </div>
                 <div class="home-image">
                     <img src="./images/hero-img.svg" alt="">
@@ -49,9 +50,9 @@
             </div>
         </div>
 
-        <div class="projects">
+        <div class="projects" id="projects">
             <div class="project-title">
-                <h1>Projects</h1>
+                <h1>JavaScript Projects</h1>
             </div>
             <div class="project-wrapper">
                 <div class="project">
@@ -110,7 +111,68 @@
             </div>
         </div>
 
-        <div class="footer">
+        <div class="projects" id="projects">
+            <div class="project-title">
+                <h1>Android Projects</h1>
+            </div>
+            <div class="project-wrapper">
+                <div class="project">
+                        <div class="title">
+                            <h1>Calculator</h1>
+                        </div>
+                        <div class="description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio impedit consequatur
+                                quisquam sint hic reprehenderit?</p>
+                        </div>
+                        <div class="button-group">
+                            <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+                            <i class="fa fa-external-link-square fa-3x" aria-hidden="true"></i>
+                        </div>
+                </div>
+                <div class="project">
+                    <div class="title">
+                        <h1>To Do</h1>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio impedit consequatur
+                            quisquam sint hic reprehenderit?</p>
+                    </div>
+                    <div class="button-group">
+                        <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+                        <i class="fa fa-external-link-square fa-3x" aria-hidden="true"></i>
+                    </div>
+            </div>
+            <div class="project">
+                <div class="title">
+                    <h1>Travel Guide</h1>
+                </div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio impedit consequatur
+                        quisquam sint hic reprehenderit?</p>
+                </div>
+                <div class="button-group">
+                    <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+                    <i class="fa fa-external-link-square fa-3x" aria-hidden="true"></i>
+                </div>
+        </div>
+        <div class="project">
+            <div class="title">
+                <h1>Text To Speech</h1>
+            </div>
+            <div class="description">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio impedit consequatur
+                    quisquam sint hic reprehenderit?</p>
+            </div>
+            <div class="button-group">
+                <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-external-link-square fa-3x" aria-hidden="true"></i>
+            </div>
+    </div>
+                
+            </div>
+        </div>
+
+        <div class="footer" id="footer">
             <div className='container'>
                 <h1>Get in touch!</h1>
                 <div class='social-links'>

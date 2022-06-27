@@ -1,6 +1,15 @@
-// const toggleButton = document.getElementsByClassName('burger')[0]
-// const navbarLinks = document.getElementsByClassName('nav-items')[0]
+function openResume() {
+    var fileUrl = "data:image/png;base64," + bytesBase64;
+fetch(fileUrl)
+    .then(response => response.blob())
+    .then(blob => {
+        var link = window.document.createElement("a");
+        link.href = window.URL.createObjectURL(blob, { type: mimeType });
+        link.download = fileName;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    });
+}
+}
 
-// toggleButton.addEventListener('click', () => {
-//   navbarLinks.classList.toggle('active')
-// })

@@ -23,11 +23,11 @@ const goTo = (website) => {
             break;
         case "t2sGithub": window.open("https://github.com/jainayushee/mobileTextToSpeech", "_blank")
             break;
-            case "LinkedIn": window.open("https://www.linkedin.com/in/ayushee-jain-a5366114b/", "_blank")
+        case "LinkedIn": window.open("https://www.linkedin.com/in/ayushee-jain-a5366114b/", "_blank")
             break;
-            case "Github": window.open("https://github.com/jainayushee", "_blank")
+        case "Github": window.open("https://github.com/jainayushee", "_blank")
             break;
-            case "Instagram": window.open("https://www.instagram.com/sundarmahila/", "_blank")
+        case "Instagram": window.open("https://www.instagram.com/sundarmahila/", "_blank")
             break;
     }
 

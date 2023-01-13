@@ -5,9 +5,9 @@ const goTo = (website) => {
             break;
         case "airlineLive": window.open("http://angula48998r.s3-website.ap-south-1.amazonaws.com/", "_blank")
             break;
-        case "keepGithub": window.open("http://www.google.com", "_blank")
+        case "keepGithub": window.open("https://github.com/anurag4998/notesapp", "_blank")
             break;
-        case "keepLive": window.open("http://www.google.com", "_blank")
+        case "keepLive": window.open("https://notesapp49.netlify.app/", "_blank")
             break;
         case "trolleyLive": window.open("https://drive.google.com/file/d/1MN_vtPYZLgQ-UIIQw-jmdch5K9WVyAsG/view", "_blank")
             break;
@@ -26,8 +26,6 @@ const goTo = (website) => {
         case "LinkedIn": window.open("https://www.linkedin.com/in/ayushee-jain-a5366114b/", "_blank")
             break;
         case "Github": window.open("https://github.com/jainayushee", "_blank")
-            break;
-        case "Instagram": window.open("https://www.instagram.com/sundarmahila/", "_blank")
             break;
     }
 
